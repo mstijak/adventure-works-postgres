@@ -1214,7 +1214,7 @@ SELECT 'Copying data into Sales.SalesOrderHeader';
 SELECT 'Copying data into Sales.SalesOrderHeaderSalesReason';
 \copy Sales.SalesOrderHeaderSalesReason FROM './data/SalesOrderHeaderSalesReason.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Sales.SalesPerson';
-\copy Sales.SalesPerson FROM './data/./data/SalesPerson.csv' DELIMITER E'\t' CSV;
+\copy Sales.SalesPerson FROM './data/SalesPerson.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Sales.SalesPersonQuotaHistory';
 \copy Sales.SalesPersonQuotaHistory FROM './data/SalesPersonQuotaHistory.csv' DELIMITER E'\t' CSV;
 SELECT 'Copying data into Sales.SalesReason';
